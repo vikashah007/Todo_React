@@ -7,7 +7,6 @@ import { AiOutlineDelete } from "react-icons/ai";
 import { BsCheckLg } from "react-icons/bs";
 function App() {
   const [isCompleteScreen, setIsCompleteScreen] = useState(false);
-  const [searchChanges, setSearchChanges] = useState(false);
   const [allTodos, setAllTodos] = useState([]);
   const [completedTodos, setComletedTodos] = useState([]);
   const [newTitle, setNewTitle] = useState("");
