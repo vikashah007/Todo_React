@@ -123,7 +123,6 @@ function App() {
             value={searchTerm}
             onChange={(e) => {
               setSearchTerm(e.target.value); // Update search term
-              setSearchChanges(true); // Set 'search' to true
             }}
           />
 
